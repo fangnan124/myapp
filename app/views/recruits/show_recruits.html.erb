@@ -1,0 +1,26 @@
+<!--CONTACT SECTION -->
+<div id="contact-section">
+  <div class="container">
+    <div class="row main-top-margin text-center">
+      <div class="col-md-8 col-md-offset-2 "><h1>採用情報</h1></div>
+    </div>
+    <!-- ./ Main Heading-->
+    <div class="row main-low-margin">
+      <div class="col-md-12  col-sm-12 ">
+        <div class="col-md-6  ">
+          <% @recruits.each do |recruit| %>
+              <div class="event">
+                <p><%= recruit.job %></p>
+                <p><%= recruit.place %></p>
+                <p><%= recruit.recruitment %></p>
+                <p><%= recruit.salary %></p>
+                <p><%= recruit.increase %></p>
+                <p><%= recruit.application %></p>
+              </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--END CONTACT SECTION -->

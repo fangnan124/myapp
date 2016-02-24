@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Job:</strong>
+  <%= @recruit.job %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @recruit.place %>
+</p>
+
+<p>
+  <strong>Recruitment:</strong>
+  <%= @recruit.recruitment %>
+</p>
+
+<p>
+  <strong>Salary:</strong>
+  <%= @recruit.salary %>
+</p>
+
+<p>
+  <strong>Increase:</strong>
+  <%= @recruit.increase %>
+</p>
+
+<p>
+  <strong>Application:</strong>
+  <%= @recruit.application %>
+</p>
+
+<%= link_to 'Edit', edit_recruit_path(@recruit) %> |
+<%= link_to 'Back', recruits_path %>

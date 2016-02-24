@@ -11,15 +11,76 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160219111758) do
+ActiveRecord::Schema.define(version: 20160224085608) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "adminpack"
 
+  create_table "business_descriptions", force: true do |t|
+    t.string   "field"
+    t.string   "programming_language"
+    t.string   "business"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "business_results", force: true do |t|
+    t.string   "system_name"
+    t.string   "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "business_rusults", force: true do |t|
+    t.string   "system_name"
+    t.string   "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "contacts", force: true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "subject"
+    t.string   "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "items", force: true do |t|
     t.string   "code"
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "newsinfos", force: true do |t|
+    t.string   "title"
+    t.string   "content"
+    t.string   "publisher"
+    t.date     "published"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "recruits", force: true do |t|
+    t.string   "job"
+    t.string   "place"
+    t.string   "recruitment"
+    t.integer  "salary"
+    t.string   "increase"
+    t.string   "application"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "username"
+    t.string   "password"
+    t.string   "email"
+    t.string   "roles"
+    t.string   "info"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

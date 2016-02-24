@@ -1,0 +1,9 @@
+<br>
+<br>
+<div align="center">
+<%= link_to 'ニュース管理', {controller: :newsinfos, action: :index}, class: "btn btn-primary" %><br>
+<%= link_to '事業内容管理', edit_business_description_path(1), class: "btn btn-primary" %><br>
+<%= link_to '採用情報管理', edit_recruit_path(1), class: "btn btn-primary" %><br>
+<%= link_to '作業実績管理', {controller: :business_results, action: :index}, class: "btn btn-primary" %><br>
+<%= link_to 'ユーザ管理', {controller: :users, action: :index}, class: "btn btn-primary" %><br>
+</div>

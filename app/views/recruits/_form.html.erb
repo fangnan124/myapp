@@ -1,0 +1,41 @@
+<%= form_for(@recruit) do |f| %>
+  <% if @recruit.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@recruit.errors.count, "error") %> prohibited this recruit from being saved:</h2>
+
+      <ul>
+      <% @recruit.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :job %><br>
+    <%= f.text_field :job %>
+  </div>
+  <div class="field">
+    <%= f.label :place %><br>
+    <%= f.text_field :place %>
+  </div>
+  <div class="field">
+    <%= f.label :recruitment %><br>
+    <%= f.text_field :recruitment %>
+  </div>
+  <div class="field">
+    <%= f.label :salary %><br>
+    <%= f.number_field :salary %>
+  </div>
+  <div class="field">
+    <%= f.label :increase %><br>
+    <%= f.text_field :increase %>
+  </div>
+  <div class="field">
+    <%= f.label :application %><br>
+    <%= f.text_field :application %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

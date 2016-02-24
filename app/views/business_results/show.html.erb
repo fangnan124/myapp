@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>System name:</strong>
+  <%= @business_result.system_name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @business_result.content %>
+</p>
+
+<%= link_to 'Edit', edit_business_result_path(@business_result) %> |
+<%= link_to 'Back', business_results_path %>

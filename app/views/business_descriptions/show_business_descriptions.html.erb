@@ -1,0 +1,23 @@
+<!--CONTACT SECTION -->
+<div id="contact-section">
+  <div class="container">
+    <div class="row main-top-margin text-center">
+      <div class="col-md-8 col-md-offset-2 "><h1>事業内容</h1></div>
+    </div>
+    <!-- ./ Main Heading-->
+    <div class="row main-low-margin">
+      <div class="col-md-12  col-sm-12 ">
+        <div class="col-md-6  ">
+          <% @business_descriptions.each do |business_description| %>
+              <div class="event">
+                <p><%= business_description.field %></p>
+                <p><%= business_description.programming_language %></p>
+                <p><%= business_description.business %></p>
+              </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--END CONTACT SECTION -->
