@@ -16,8 +16,8 @@
 #
 development:
   adapter: postgresql
-  encoding: utf-8
-  database: postgres
+  encoding: unicode
+  database: myapp_development
   pool: 5
   username: postgres
   password: postgres
