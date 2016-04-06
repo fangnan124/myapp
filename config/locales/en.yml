@@ -31,6 +31,10 @@ en:
     login: "LOGIN"
     mypage: "MY PAGE"
 
+  language:
+    japanese: "JAPANESE"
+    english: "ENGLISH"
+
   date:
     formats:
       # Use the strftime parameters for formats.

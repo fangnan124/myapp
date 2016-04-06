@@ -1,5 +1,28 @@
 
 <% content_for :head do %>
+    <%= javascript_include_tag "http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false", "data-turbolinks-track" => true %>
+    <script>
+      var myCenter=new google.maps.LatLng(35.698231, 139.827589);
+
+      function initialize()
+      {
+        var mapProp = {
+          center:myCenter,
+          zoom:17,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+        var marker=new google.maps.Marker({
+          position:myCenter,
+        });
+
+        marker.setMap(map);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 <% end %>
 
 <!--CONTACT SECTION -->
@@ -62,4 +85,8 @@
 <!--END CONTACT SECTION -->
 
 <br>
-<div align="center"><div id="googleMap" style="width:1000px;height:360px;"></div></div>
+<div align="center"><div id="googleMap" style="width:1120px;height:360px;"></div></div>
+<br>
+<br>
+<br>
+<br>

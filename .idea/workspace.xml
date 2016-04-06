@@ -2,158 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="006fcc8f-343b-419a-b8c4-6145f3f6a615" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/1-57b4be203f3d6bdb0de4b725eb370cbb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/1-771f778eb410f54d9df37b6ad8d1d79a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/2-a49aa268a54d8fa54d6d2e41d068bfc9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/2-f96dfe987108c67759aae10ce3286035.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/3-2122a7d5682953065e69b51cd52e71b8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/3-237c2fcb19a5ed719c2411d85d7652eb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/5-8c42b10d795480ff46a663ead5549d20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/7-987b5992f8ab0db24e8895323dc6313a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/8-afb908a4eebb258e89b66ca77b10b2df.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-9cfb2b54e08a529e78bc762a00f29c92.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-e0ffa04e144e14d911890cccdbb05f25.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-06da273d50f41ead20e30ea1447d321d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-06da273d50f41ead20e30ea1447d321d.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-3ce63a04aaa94a8d066191b0e31ac1b4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-3ce63a04aaa94a8d066191b0e31ac1b4.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-abc607f01f477449395938e7ba050c31.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-abc607f01f477449395938e7ba050c31.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-d2f3fb3f753511fd647311175effe233.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-d2f3fb3f753511fd647311175effe233.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-034b594e8c057fb831908d86c18630c8.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-1d649f0db6e4b22db6a94bb1da579426.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-94d7635e8341362b9e5024324f9065af.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-9d1c4170689008ff39bc0acd0029a87e.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aeefbe1acc46b37ef29dca88d997eb09.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-cb1899f486acd128b8a5f2846a929c92.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-f1732d4266606ea4a1e7974e4391a518.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-f98837971d440ea17039933735e32e87.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-191ab7ba17a71b63367697fad63e579c.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-195064eae9419ed3ea67fd3dc90e38bf.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-5f4350c53fe3286c544d354109e79fae.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-7ffb9f8d0d0c3e4715d86787cdba0a78.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-98268c19fd22a98749481f8b833b38ec.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-b0a2eba45a6eb8bd986f2681f1b0d16f.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-dc1ab5f3971ad134652540a00c95e8ef.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-edab39e8848eef4f6b8b43903a10851c.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/loading-b639e23682cca9d393c49ebc4f95915a.GIF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/loading-c9f6b95fe651880b896f24f9437c3bf9.GIF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest-ad655121f8e94cca0647841788ce2ae0.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b1-126cca80a1f75874879cb46dcefda7b3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b1-9723ebd9fc7ab7db12e4fcaa11cf3784.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b2-c2503d5760daac07128686a36ac2a147.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b2-d3033146ebcaa1f3d7715f47d1a739f8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b3-6ace0989573349d4541a46724068dcf7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b3-a775efc1ae705ea083d1f74aa4540a7a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b4-6575d77167512d65e3775ccfec015549.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b4-e0db85c7b7c034f4589a6a39b6b4ad70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b5-2d0be1de19416b2ea7645ec6d9d5bdd6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b5-c177fe6975720c5024be7a6218744091.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b6-8d6e45ad71be5634bf82f60f2900efac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b6-cc857afa035f64090ef7d2f3b6abdb90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b7-2cc81622af8d41fc49de1d347fc9407d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b7-7bae1fb94ef26cd445ba602d31c6257e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b8-0ef520bad23134ae4845ec6f7fecfdee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b8-847cca757172d43145cdeba4fa016742.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b9-42cf974615d6369032a6bd7fcd38ca92.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/big/b9-6e39d634538e0c827beb236f0ea2a40f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t1-602363f7c7e9f18bedb027359f216ed5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t1-f71ab5ce69acd39b9bc59333810ae047.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t2-692c621aea82bdce7d81ae4eb8de6b4e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t2-9b32d84978bdcf7d68a1cb563a0e3d6c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t3-32fa140998bc441e5b4b881d76aac821.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t3-3a365d51b6f3f62754386765405fbe6e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t4-0e354228b829b347b3ad22ccb4b92a76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t4-a6a856fd6b3a229caedfa6d41b1f45d2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t5-c8ce020aa5a97560892046afd98ed4c6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t5-fdd56fb3f39f8092dd5ec7810a4fd2d7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t6-5d6aef8ca88f23f2e5725c7db0cbfc22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t6-9c5454854c7b2043823506f5fb5a6c0c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t7-37a097d90d4582f136c49166be4f5ccf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t7-faf515bf3be45487ab22cb860f251a4a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t8-c5ec9463dc2e043fe31f87eae1714102.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t8-da92b3bf25d28bbeed30b093fa127803.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t9-1f67279acbad9bae8f3c1d516787da78.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/portfolio/thumb/t9-d36a3d794ace824c3fae68f58571569e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/btnNext-10476ddc57b4aa4256fb059d14fdee77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/btnNext-45def24c948047d992eaaf0b581e6d54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/btnPrevious-620cf2d66732c19ef898cd5cee8e84f2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/btnPrevious-e7aa006a6406324b09ff7e32e4eb0466.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/contentPattern-19b4f21c1a419187a2351191e60a2629.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/contentPattern-3bd84d36150c83e0136c226b8a910e84.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/default_thumbnail-94e3f6409ae079fc66748f14e9e2be29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/default_thumbnail-f56b0298c6f9d09735af85fd337c51fa.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/loader-55a07800a361610501fc2643c02a35eb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/loader-6aa66cc89cbaa872de3ae29a989042ab.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/sprite-7d3d83bdbb22e4ff2dd6301598a941e2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_rounded/sprite-d4a9f62aa0824c4ec8d166c75aab325e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/btnNext-10476ddc57b4aa4256fb059d14fdee77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/btnNext-45def24c948047d992eaaf0b581e6d54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/btnPrevious-620cf2d66732c19ef898cd5cee8e84f2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/btnPrevious-e7aa006a6406324b09ff7e32e4eb0466.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/contentPattern-1b1f597d3fd309c019bcaae53a0d744c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/contentPattern-240945545e31eb0645f4e19fc50cb4f1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/default_thumbnail-94e3f6409ae079fc66748f14e9e2be29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/default_thumbnail-f56b0298c6f9d09735af85fd337c51fa.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/loader-55a07800a361610501fc2643c02a35eb.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/loader-6aa66cc89cbaa872de3ae29a989042ab.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/sprite-acc43c8d1a4736e6741dc528aae86510.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/dark_square/sprite-f219027adfbf3d15836767ab04498395.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/default_thumb-7641ed3ba4da87b297f6dedb992cea8d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/default_thumb-e867fe16480185a9f25f430198efd7ca.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/loader-6e076a5f0c0a0d12df60829d80e3a28c.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/loader-a9c7461c44d1458ae15b34636bb873b4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite-4b5fe15e804658df783ac50d96dea4ba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite-8247db70f1365fdfb51ed6c3cf4ed3f6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_next-31b561a66171085564a8d9c18ef20dd6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_next-38a5a6dd832bd5fa9d11b1021dc7365b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_prev-189a6534050bc64e3052b116411ded14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_prev-a675efc3bef4a065ac7398585a485773.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_x-edae43673b13964e495f0df37ef7276c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_x-f85b1de7ade90128d15895c97e1649c3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_y-0872a7bf07d94360d7835a39fb079ebd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/default/sprite_y-1e77cca2088508886269d3f3c661bed2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/btnNext-771a7e1e771482e8dcf1f693c43300d1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/btnNext-913c3773a0b11dc6016c583f1b129c2a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/btnPrevious-57a1f7966982e5efe65b9bb874be15dc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/btnPrevious-c8463b9f7ec72fc9c3dcdc37b9a0ec3c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternBottom-b4dfb87914ee45071a0fa59c3d9c1ae2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternBottom-f8ed97744306dfab33a98ad9a7892f8a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternLeft-4ce0c495d76c27f88ecf8d2a6e33d87f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternLeft-7a8ebc41b3b5cfc1b9bd0c523a337f1d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternRight-18ad35a2bb04bd969d6e9944f5dfd940.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternRight-9324bd0743d9670d1f4f352c1b5fa7b4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternTop-61fe14fda8829a78bf6e0eecb78ce8d5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/contentPatternTop-effd058fb4e312f3670b4b1738e163d1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/default_thumbnail-94e3f6409ae079fc66748f14e9e2be29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/default_thumbnail-f56b0298c6f9d09735af85fd337c51fa.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/loader-0fb26aacc660c48cec9d1c88da1c0b31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/loader-a4398163d6079ea83f0e4f855bf2a9d7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/sprite-6c76bb000beb24276d66cea1d32635e8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/facebook/sprite-87cd47bd9b1d03cb93a381e655ade5e4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/btnNext-10476ddc57b4aa4256fb059d14fdee77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/btnNext-45def24c948047d992eaaf0b581e6d54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/btnPrevious-620cf2d66732c19ef898cd5cee8e84f2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/btnPrevious-e7aa006a6406324b09ff7e32e4eb0466.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/default_thumbnail-94e3f6409ae079fc66748f14e9e2be29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/default_thumbnail-f56b0298c6f9d09735af85fd337c51fa.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/loader-0fb26aacc660c48cec9d1c88da1c0b31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/loader-a4398163d6079ea83f0e4f855bf2a9d7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/sprite-b395d83612a550598a112ba31ba56c8d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_rounded/sprite-f7660e5e53b4a1b6c60d3a2f6db7fa10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/btnNext-10476ddc57b4aa4256fb059d14fdee77.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/btnNext-45def24c948047d992eaaf0b581e6d54.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/btnPrevious-620cf2d66732c19ef898cd5cee8e84f2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/btnPrevious-e7aa006a6406324b09ff7e32e4eb0466.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/default_thumbnail-94e3f6409ae079fc66748f14e9e2be29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/default_thumbnail-f56b0298c6f9d09735af85fd337c51fa.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/loader-0fb26aacc660c48cec9d1c88da1c0b31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/loader-a4398163d6079ea83f0e4f855bf2a9d7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/sprite-acc43c8d1a4736e6741dc528aae86510.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/prettyPhoto/light_square/sprite-f219027adfbf3d15836767ab04498395.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/team/team1-2f7996024986d8a581c04ced2e51c9e0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/team/team1-a10885f24bf5e19e0115a47ea82895c4.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login/my_page.html.erb" afterPath="$PROJECT_DIR$/app/views/login/my_page.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/management/index.html.erb" afterPath="$PROJECT_DIR$/app/views/management/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/newsinfos/show_newsinfos.html.erb" afterPath="$PROJECT_DIR$/app/views/newsinfos/show_newsinfos.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html" afterPath="$PROJECT_DIR$/app/views/welcome/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ja.yml" afterPath="$PROJECT_DIR$/config/locales/ja.yml" />
     </list>
     <ignored path="myapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,11 +40,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.11111">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_page.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/login/my_page.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28592375">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -197,17 +76,17 @@
         <entry file="file://$PROJECT_DIR$/app/views/management/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.5882353">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="19" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/login/index.html.erb">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0588236">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state vertical-scroll-proportion="-19.375">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -216,31 +95,11 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0588236">
-              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state vertical-scroll-proportion="-6.019608">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ja.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/locales/ja.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="en.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87721694">
-              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -274,11 +133,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome.js" />
         <option value="$PROJECT_DIR$/app/controllers/management_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/management/index.erb" />
-        <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/business_results_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/login/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/login_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/login/my_page.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_results/manage.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_results/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/newsinfos_controller.rb" />
@@ -287,7 +144,6 @@
         <option value="$PROJECT_DIR$/app/views/recruits/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_descriptions/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap2.css" />
-        <option value="$PROJECT_DIR$/app/views/newsinfos/show_newsinfos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_results/show_business_results.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_descriptions/show_business_descriptions.html.erb" />
         <option value="$PROJECT_DIR$/app/views/recruits/show_recruits.html.erb" />
@@ -300,14 +156,17 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/locales/jp.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/config/locales/ja.yml" />
         <option value="$PROJECT_DIR$/app/views/management/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/views/newsinfos/show_newsinfos.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/ja.yml" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
+        <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/login/my_page.html.erb" />
       </list>
     </option>
   </component>
@@ -400,6 +259,232 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsinfos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -630,9 +715,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -682,39 +767,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3023257">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css.scss.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.348837">
@@ -749,14 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/newsinfos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -969,53 +1013,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4654443">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42492917">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7948718">
-          <caret line="175" column="27" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021994134">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31085044">
-          <caret line="3826" column="3" selection-start-line="3826" selection-start-column="3" selection-end-line="3826" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0588236">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,26 +1045,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.11111">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/management/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5882353">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/login/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0588236">
+        <state vertical-scroll-proportion="0.5278592">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css.scss.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.371795">
+          <caret line="297" column="0" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9803922">
+          <caret line="1103" column="24" selection-start-line="1103" selection-start-column="24" selection-end-line="1103" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1070,15 +1104,75 @@
     <entry file="file://$PROJECT_DIR$/config/locales/ja.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/newsinfos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87721694">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5278592">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/newsinfos/show_newsinfos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4398827">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.019608">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/management/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5882353">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login/my_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28592375">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>

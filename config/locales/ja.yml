@@ -31,6 +31,10 @@ ja:
     login: "ログイン"
     mypage: "マイページ"
 
+  language:
+    japanese: "日本語"
+    english: "英語"
+
   date:
     formats:
       default: "%Y/%m/%d"
