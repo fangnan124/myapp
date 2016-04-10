@@ -11,63 +11,71 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160224085608) do
+ActiveRecord::Schema.define(version: 20160408030657) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "business_descriptions", force: true do |t|
-    t.string   "field"
-    t.string   "programming_language"
-    t.string   "business"
+  create_table "businesses", force: :cascade do |t|
+    t.string   "field",                limit: 255
+    t.string   "programming_language", limit: 255
+    t.string   "business",             limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "business_results", force: true do |t|
-    t.string   "system_name"
-    t.string   "content"
+  create_table "contacts", force: :cascade do |t|
+    t.string   "name",       limit: 255
+    t.string   "email",      limit: 255
+    t.string   "subject",    limit: 255
+    t.string   "message",    limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "contacts", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "subject"
-    t.string   "message"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "newsinfos", force: true do |t|
-    t.string   "title"
-    t.string   "content"
-    t.string   "publisher"
+  create_table "newses", force: :cascade do |t|
+    t.string   "title",      limit: 255
+    t.string   "content",    limit: 255
+    t.string   "publisher",  limit: 255
     t.date     "published"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "recruits", force: true do |t|
-    t.string   "job"
-    t.string   "place"
-    t.string   "recruitment"
-    t.integer  "salary"
-    t.string   "increase"
-    t.string   "application"
+  create_table "projects", force: :cascade do |t|
+    t.string   "system_name", limit: 255
+    t.string   "content",     limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "users", force: true do |t|
-    t.string   "username"
-    t.string   "password"
-    t.string   "email"
-    t.string   "roles"
-    t.string   "info"
+  create_table "recruits", force: :cascade do |t|
+    t.string   "job",         limit: 255
+    t.string   "place",       limit: 255
+    t.string   "recruitment", limit: 255
+    t.integer  "salary"
+    t.string   "increase",    limit: 255
+    t.string   "application", limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.inet     "current_sign_in_ip"
+    t.inet     "last_sign_in_ip"
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
 end

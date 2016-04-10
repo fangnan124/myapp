@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>benegrouper</title>
+  <title>Marvelous Tech</title>
 
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
-  <%= javascript_include_tag "bootstrap.min", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "bootshape", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "http://fonts.googleapis.com/css?family=Open+Sans", media: "all" %>
 
-  <%= javascript_include_tag "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "bootstrap" %>
+  <%= stylesheet_link_tag "style" %>
 
-  <%= stylesheet_link_tag    "http://fonts.googleapis.com/css?family=Open+Sans", media: "all", "data-turbolinks-track" => true %>
-
-  <%= stylesheet_link_tag "bootstrap", "data-turbolinks-track" => true %>
-  <%= stylesheet_link_tag "font-awesome", "data-turbolinks-track" => true %>
-  <%= stylesheet_link_tag "style", "data-turbolinks-track" => true %>
-
-  <%= stylesheet_link_tag "bootshape", media: "all", "data-turbolinks-track" => true %>
-
-  <%= stylesheet_link_tag    "http://fonts.googleapis.com/css?family=Belgrano|Courgette&subset=latin,latin-ext", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Belgrano|Courgette&subset=latin,latin-ext", media: "all" %>
 
   <style type="text/css">
     <!--
@@ -36,7 +27,7 @@
   <%= yield :head %>
 </head>
 
-<body>
+<body class="container">
 <div class="loader"></div>
 <!-- NAV SECTION -->
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -47,21 +38,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/<%= I18n.locale %>">Bene-grouper</a>
+      <a class="navbar-brand" href="/<%= I18n.locale %>">Marvelous Tech</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to (t 'menu.home'), {controller: :welcome, action: :index} %></li>
-        <li><%= link_to (t 'menu.news'), {controller: :newsinfos, action: :show_newsinfos} %></li>
-        <li><%= link_to (t 'menu.business'), {controller: :business_descriptions, action: :show_business_descriptions} %></li>
-        <li><%= link_to (t 'menu.recruits'), {controller: :recruits, action: :show_recruits} %></li>
-        <li><%= link_to (t 'menu.projects'), {controller: :business_results, action: :show_business_results} %></li>
-        <li><%= link_to (t 'menu.contact'), {controller: :contacts, action: :new} %></li>
-        <li><%= link_to_if session[:role] == "m", (t 'menu.management'), {controller: :management, action: :index} do end %></li>
-        <li><%= link_to_if session[:status].nil?, (t 'menu.login'), {controller: :login, action: :index} do |name| link_to (t 'menu.mypage'), {controller: :login, action: :my_page} end %></li>
+        <li><%= link_to t('menu.home'), welcome_path %></li>
+        <li><%= link_to t('menu.news'), show_newses_path %></li>
+        <li><%= link_to t('menu.business'), show_businesses_path %></li>
+        <li><%= link_to t('menu.recruits'), show_recruits_path %></li>
+        <li><%= link_to t('menu.projects'), show_projects_path %></li>
+        <li><%= link_to t('menu.contact'), new_contact_path %></li>
+        <li><%= link_to_unless current_user.nil?, t('menu.management'), {controller: :management, action: :index} do end %></li>
+        <li><%= link_to_if current_user.nil?, t('menu.login'), new_user_session_path do |name| link_to t('menu.mypage'), {controller: :login, action: :my_page} end %></li>
         <li>
           <div style="padding: 15px">
-            <%= select :page, :language, [[(t 'language.japanese'), "ja"], [(t 'language.english'), "en"]], {:selected => I18n.locale}, onchange:'location.href="/"+value;' %>
+            <%= select :page, :language, [[t('language.japanese'), "ja"], [t('language.english'), "en"]], {selected: I18n.locale}, onchange:'location.href="/"+value;' %>
           </div>
         </li>
         }
@@ -77,11 +68,11 @@
 
 <!--FOOTER SECTION -->
 <div id="footer">
-  <div class="container">
+  <!--<div class="container">-->
     <div class="row ">
-      &copy; 2016 www.benegrouper.co.jp | All Right Reserved
+      &copy; 2016 www.marveloustech.com | All Right Reserved
     </div>
-  </div>
+  <!--</div>-->
 </div>
 <!--END FOOTER SECTION -->
 

@@ -1,46 +1,39 @@
 Myapp::Application.routes.draw do
 
-  # [my] catch ja/newsinfos/
   scope ":locale", locale: /ja|en|de/ do
-    get '/recruits/show_recruits', to: 'recruits#show_recruits'
+
+    root 'welcome#index', :as => :welcome
+
+    get '/recruits/show_recruits',     to: 'recruits#show_recruits',     :as => :show_recruits
+    get '/businesses/show_businesses', to: 'businesses#show_businesses', :as => :show_businesses
+    get '/projects/show_projects',     to: 'projects#show_projects',     :as => :show_projects
+    get '/newses/show_newses',         to: 'newses#show_newses',         :as => :show_newses
+    get '/login/index',                to: 'login#index'
+    get '/login/login/:id',            to: 'login#login'
+    get '/login/my_page',              to: 'login#my_page'
+    get '/login/logout',               to: 'login#logout'
+
     resources :recruits
-
-    get '/business_descriptions/show_business_descriptions', to: 'business_descriptions#show_business_descriptions'
-    resources :business_descriptions
-
-    resources :users
-
-    get '/business_results/show_business_results', to: 'business_results#show_business_results'
-    resources :business_results
-
+    resources :businesses
+    resources :projects
     resources :contacts
+    resources :newses
 
-    get '/newsinfos/show_newsinfos', to: 'newsinfos#show_newsinfos'
-    resources :newsinfos
-
-    get '/login/index', to: 'login#index'
-    get '/login/login/:id', to: 'login#login'
-    get '/login/my_page', to: 'login#my_page'
-    get '/login/logout', to: 'login#logout'
-
-    # The priority is based upon order of creation: first created -> highest priority.
-    # See how all your routes lay out with "rake routes".
-
-    # You can have the root of your site routed with "root"
-    root 'welcome#index'
+    devise_for :users
 
     match ':controller(/:action(/:id))', via: [:get, :post, :patch]
 
   end
 
-  # [my] catch
-  match '*path', to: redirect("/#{I18n.default_locale}/%{path}") , via: [:get, :post, :patch]
-  match '', to: redirect("/#{I18n.default_locale}") , via: [:get, :post, :patch]
+  #match '*path', to: redirect("/#{I18n.default_locale}/%{path}") , via: [:get, :post, :patch]
+  match '',      to: redirect("/#{I18n.default_locale}") ,         via: [:get, :post, :patch]
 
 
 
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
 
-
+  # You can have the root of your site routed with "root"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

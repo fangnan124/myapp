@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Field:</strong>
+  <%= @business.field %>
+</p>
+
+<p>
+  <strong>Programming language:</strong>
+  <%= @business.programming_language %>
+</p>
+
+<p>
+  <strong>Business:</strong>
+  <%= @business.business %>
+</p>
+
+<%= link_to 'Edit', edit_business_path(@business) %> |
+<%= link_to 'Back', businesses_path %>

@@ -14,3 +14,10 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym 'RESTful'
 # end
+
+
+# check for this => http://stackoverflow.com/questions/11928355/rails-model-name-ends-with-s
+ActiveSupport::Inflector.inflections do |inflect|
+  inflect.irregular 'news', 'newses'
+  inflect.irregular 'business', 'businesses'
+end

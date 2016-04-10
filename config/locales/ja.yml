@@ -35,6 +35,10 @@ ja:
     japanese: "日本語"
     english: "英語"
 
+  button:
+    login: "ログイン"
+    logout: "ログアウト"
+
   date:
     formats:
       default: "%Y/%m/%d"

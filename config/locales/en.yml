@@ -35,6 +35,10 @@ en:
     japanese: "JAPANESE"
     english: "ENGLISH"
 
+  button:
+    login: "Log in"
+    logout: "Log out"
+
   date:
     formats:
       # Use the strftime parameters for formats.
