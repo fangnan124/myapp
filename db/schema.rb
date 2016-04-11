@@ -17,45 +17,45 @@ ActiveRecord::Schema.define(version: 20160408030657) do
   enable_extension "plpgsql"
 
   create_table "businesses", force: :cascade do |t|
-    t.string   "field",                limit: 255
-    t.string   "programming_language", limit: 255
-    t.string   "business",             limit: 255
+    t.string   "field"
+    t.string   "programming_language"
+    t.string   "business"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "contacts", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.string   "email",      limit: 255
-    t.string   "subject",    limit: 255
-    t.string   "message",    limit: 255
+    t.string   "name"
+    t.string   "email"
+    t.string   "subject"
+    t.string   "message"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "newses", force: :cascade do |t|
-    t.string   "title",      limit: 255
-    t.string   "content",    limit: 255
-    t.string   "publisher",  limit: 255
+    t.string   "title"
+    t.string   "content"
+    t.string   "publisher"
     t.date     "published"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "projects", force: :cascade do |t|
-    t.string   "system_name", limit: 255
-    t.string   "content",     limit: 255
+    t.string   "system_name"
+    t.string   "content"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "recruits", force: :cascade do |t|
-    t.string   "job",         limit: 255
-    t.string   "place",       limit: 255
-    t.string   "recruitment", limit: 255
+    t.string   "job"
+    t.string   "place"
+    t.string   "recruitment"
     t.integer  "salary"
-    t.string   "increase",    limit: 255
-    t.string   "application", limit: 255
+    t.string   "increase"
+    t.string   "application"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

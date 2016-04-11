@@ -5,24 +5,9 @@
 
   <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
 
-  <%= stylesheet_link_tag    "http://fonts.googleapis.com/css?family=Open+Sans", media: "all" %>
-
-  <%= stylesheet_link_tag "bootstrap" %>
-  <%= stylesheet_link_tag "style" %>
-
+  <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Open+Sans", media: "all" %>
   <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Belgrano|Courgette&subset=latin,latin-ext", media: "all" %>
-
-  <style type="text/css">
-    <!--
-    .STYLE1 {
-      color: #99CC00;
-      font-weight: bold;
-    }
-    .STYLE2 {font-size: 16px}
-    -->
-  </style>
 
   <%= yield :head %>
 </head>
