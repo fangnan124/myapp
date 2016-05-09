@@ -1,0 +1,43 @@
+var app = angular.module('newses',[]);
+app.controller("NewsesController", ["$scope", "$http",
+  function ($scope, $http) {
+    var page = 0;
+
+
+    $scope.customers = [];
+    $scope.select = function () {
+
+      // onchange => $scope.locale = getXXX();
+      var locale = '<%= I18n.locale %>';
+
+      $http.get("/" + locale + "/newses/show_newses.json", {"params": {"page": page}}
+      ).then(function (response) {
+            $scope.newses = response.data;
+          }, function (response) {
+            alert("There was a problem: " + response.status);
+          }
+      );
+    }
+
+    $scope.previousPage = function () {
+      if (page > 0) {
+        page = page - 1;
+        $scope.select();
+      }
+    }
+
+    $scope.nextPage = function () {
+      page = page + 1;
+      $scope.select();
+    }
+
+    $scope.changeLocale = function () {
+      $scope.locale = $("option#locale :selected").val();
+      alert("22 = " + locale);
+      location.href="/"+locale;
+    }
+
+    $scope.select();
+  }
+])
+

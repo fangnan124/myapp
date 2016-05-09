@@ -2,21 +2,18 @@
 <html>
 <head>
   <title>Marvelous Tech</title>
-
   <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application" %>
-
   <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Open+Sans", media: "all" %>
   <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Belgrano|Courgette&subset=latin,latin-ext", media: "all" %>
 
   <%= yield :head %>
 </head>
 
-<body class="container">
-<div class="loader"></div>
+<body>
 <!-- NAV SECTION -->
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
@@ -25,24 +22,45 @@
       </button>
       <a class="navbar-brand" href="/<%= I18n.locale %>">Marvelous Tech</a>
     </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to t('menu.home'), welcome_path %></li>
-        <li><%= link_to t('menu.news'), show_newses_path %></li>
-        <li><%= link_to t('menu.business'), show_businesses_path %></li>
-        <li><%= link_to t('menu.recruits'), show_recruits_path %></li>
-        <li><%= link_to t('menu.projects'), show_projects_path %></li>
-        <li><%= link_to t('menu.contact'), new_contact_path %></li>
-        <li><%= link_to_unless current_user.nil?, t('menu.management'), {controller: :management, action: :index} do end %></li>
-        <li><%= link_to_if current_user.nil?, t('menu.login'), new_user_session_path do |name| link_to t('menu.mypage'), {controller: :login, action: :my_page} end %></li>
-        <li>
-          <div style="padding: 15px">
-            <%= select :page, :language, [[t('language.japanese'), "ja"], [t('language.english'), "en"]], {selected: I18n.locale}, onchange:'location.href="/"+value;' %>
-          </div>
-        </li>
-        }
+    <div class="nav navbar-nav navbar-right" style="padding: 15px">
+      <select name="page[language]"
+              id="page_language"
+              ng-change="changeLocale()">
+        <option id="locale" value="ja" selected="selected">日本語</option>
+        <option id="locale" value="en">英語</option>
+      </select>
+    </div>
+    <div class="navbar-collapse collapse navbar-right" style="padding-right: 50px">
+      <ul class="nav navbar-nav">
+        <li class="my-navbar-btn"><%= link_to t('menu.home'), welcome_path %></li>
+        <li class="my-navbar-btn"><%= link_to t('menu.news'), show_newses_path %></li>
+        <li class="my-navbar-btn"><%= link_to t('menu.business'), show_businesses_path %></li>
+        <li class="my-navbar-btn"><%= link_to t('menu.recruits'), show_recruits_path %></li>
+        <li class="my-navbar-btn"><%= link_to t('menu.projects'), show_projects_path %></li>
+        <li class="my-navbar-btn"><%= link_to t('menu.contact'), show_contacts_path %></li>
+        <% unless current_user.nil? %>
+            <li class="dropdown">
+              <a class="dropdown-toggle my-navbar-btn"
+                 data-toggle="dropdown"
+                 role="button"
+                 aria-haspopup="true"
+                 aria-expanded="false">
+                <%= t('menu.management') %>
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to 'ニュース管理', newses_path %></li>
+                <li><%= link_to '事業内容管理', edit_business_path(1) %></li>
+                <li><%= link_to '採用情報管理', edit_recruit_path(1) %></li>
+                <li role="separator" class="divider"></li>
+                <li><%= link_to '作業実績管理', projects_path %></li>
+              </ul>
+            </li>
+        <% end %>
+        <li><div class="btn btn-default btn-xs navbar-btn">
+          <%= link_to_if current_user.nil?, t('menu.login'), new_user_session_path do |name|
+          link_to t('menu.mypage'), {controller: :login, action: :my_page} end %></div></li>
       </ul>
-
     </div>
 
   </div>
@@ -52,13 +70,13 @@
 <%= yield %>
 
 <!--FOOTER SECTION -->
-<div id="footer">
-  <!--<div class="container">-->
-    <div class="row ">
-      &copy; 2016 www.marveloustech.com | All Right Reserved
+<footer class="footer navbar-default">
+  <div class="container-fluid">
+    <div class="row pull-right">
+      <p class="navbar-text">2016 www.marveloustech.com | All Right Reserved</p>
     </div>
-  <!--</div>-->
-</div>
+  </div>
+</footer>
 <!--END FOOTER SECTION -->
 
 </body>

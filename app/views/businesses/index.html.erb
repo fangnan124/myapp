@@ -1,7 +1,8 @@
-<h1>Listing businesses</h1>
+<div class="container">
+  <h1>Listing businesses</h1>
 
-<table>
-  <thead>
+  <table class="table table-striped">
+    <thead>
     <tr>
       <th>Field</th>
       <th>Programming language</th>
@@ -10,22 +11,25 @@
       <th></th>
       <th></th>
     </tr>
-  </thead>
+    </thead>
 
-  <tbody>
+    <tbody>
     <% @businesses.each do |business| %>
-      <tr>
-        <td><%= business.field %></td>
-        <td><%= business.programming_language %></td>
-        <td><%= business.business %></td>
-        <td><%= link_to 'Show', business %></td>
-        <td><%= link_to 'Edit', edit_business_path(business) %></td>
-        <td><%= link_to 'Destroy', business, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+        <tr>
+          <td><%= business.field %></td>
+          <td><%= business.programming_language %></td>
+          <td><%= business.business %></td>
+          <td><%= link_to 'Show', business %></td>
+          <td><%= link_to 'Edit', edit_business_path(business) %></td>
+          <td><%= link_to 'Destroy', business, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
     <% end %>
-  </tbody>
-</table>
+    </tbody>
+  </table>
 
-<br>
+  <br>
 
-<%= link_to 'New Business', new_business_path %>
+  <%= link_to 'New Business', new_business_path %>
+
+</div>
+

@@ -8,10 +8,13 @@ Myapp::Application.routes.draw do
     get '/businesses/show_businesses', to: 'businesses#show_businesses', :as => :show_businesses
     get '/projects/show_projects',     to: 'projects#show_projects',     :as => :show_projects
     get '/newses/show_newses',         to: 'newses#show_newses',         :as => :show_newses
+    get '/contacts/show_contacts',     to: 'contacts#show_contacts',     :as => :show_contacts
+    get '/management',                 to: 'management#index',           :as => :management
     get '/login/index',                to: 'login#index'
     get '/login/login/:id',            to: 'login#login'
     get '/login/my_page',              to: 'login#my_page'
     get '/login/logout',               to: 'login#logout'
+    get '/newses/show_newses.json',    to: 'newses#show_newses'
 
     resources :recruits
     resources :businesses

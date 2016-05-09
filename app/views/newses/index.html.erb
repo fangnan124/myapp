@@ -1,7 +1,8 @@
-<h1>Listing newses</h1>
+<div class="container">
+  <h1>Listing newses</h1>
 
-<table>
-  <thead>
+  <table class="table table-striped">
+    <thead>
     <tr>
       <th>Title</th>
       <th>Content</th>
@@ -11,23 +12,26 @@
       <th></th>
       <th></th>
     </tr>
-  </thead>
+    </thead>
 
-  <tbody>
+    <tbody>
     <% @newses.each do |news| %>
-      <tr>
-        <td><%= news.title %></td>
-        <td><%= news.content %></td>
-        <td><%= news.publisher %></td>
-        <td><%= news.published %></td>
-        <td><%= link_to 'Show', news %></td>
-        <td><%= link_to 'Edit', edit_news_path(news) %></td>
-        <td><%= link_to 'Destroy', news, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+        <tr>
+          <td><%= news.title %></td>
+          <td><%= news.content %></td>
+          <td><%= news.publisher %></td>
+          <td><%= news.published %></td>
+          <td><%= link_to 'Show', news %></td>
+          <td><%= link_to 'Edit', edit_news_path(news) %></td>
+          <td><%= link_to 'Delete', news, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
     <% end %>
-  </tbody>
-</table>
+    </tbody>
+  </table>
 
-<br>
+  <br>
 
-<%= link_to 'New News', new_news_path %>
+  <div style="padding: 0 15px 15px 15px">
+    <%= link_to 'New News', new_news_path, class: "btn btn-default" %>
+  </div>
+</div>

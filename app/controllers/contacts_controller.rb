@@ -17,6 +17,10 @@ class ContactsController < ApplicationController
     @contact = Contact.new
   end
 
+  def show_contacts
+    @contact = Contact.new
+  end
+
   # GET /contacts/1/edit
   def edit
   end

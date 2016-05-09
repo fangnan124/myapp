@@ -10,24 +10,30 @@
       </ul>
     </div>
   <% end %>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <div class="field">
+            <%= f.label :title %><br>
+            <%= f.text_field :title, class: "form-control" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="form-group">
+          <div class="field">
+            <%= f.label :content %><br>
+            <%= f.text_area :content, class: "form-control" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="actions">
+        <%= f.submit class: "btn btn-primary" %>
+      </div>
+    </div>
 
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :content %><br>
-    <%= f.text_field :content %>
-  </div>
-  <div class="field">
-    <%= f.label :publisher %><br>
-    <%= f.text_field :publisher %>
-  </div>
-  <div class="field">
-    <%= f.label :published %><br>
-    <%= f.date_select :published %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
 <% end %>

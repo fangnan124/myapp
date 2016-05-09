@@ -1,7 +1,7 @@
 <br>
 <br>
 <div align="center">
-<%= link_to t("button.logout"), destroy_user_session_path, method: :delete %><br>
+<%= link_to t("button.logout"), {controller: :login, action: :logout} %><br>
 </div>
 <br>
 <br>

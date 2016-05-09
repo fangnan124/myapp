@@ -1,6 +1,8 @@
 class NewsesController < ApplicationController
   before_action :set_news, only: [:show, :edit, :update, :destroy]
 
+  PAGE_SIZE = 6
+
   # GET /newses
   # GET /newses.json
   def index
@@ -8,7 +10,12 @@ class NewsesController < ApplicationController
   end
 
   def show_newses
-    @newses = News.all
+    @page = (params[:page] || 0).to_i
+    @newses = News.all.offset(PAGE_SIZE * @page).limit(PAGE_SIZE)
+    respond_to do |format|
+      format.html { }
+      format.json { render json: @newses }
+    end
   end
 
   # GET /newses/1

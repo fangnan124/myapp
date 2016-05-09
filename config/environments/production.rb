@@ -77,4 +77,20 @@ Myapp::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  module MyApp
+    class Application < Rails::Application
+      config.assets.paths << Rails.root.join("vendor",
+                                             "assets",
+                                             "bower_components")
+      config.assets.paths << Rails.root.join("vendor",
+                                             "assets",
+                                             "bower_components",
+                                             "bootstrap-sass-official",
+                                             "assets",
+                                             "fonts")
+      config.assets.precompile << /\.(?:svg|eot|woff|ttf|woff2)\z/
+    end
+  end
+
 end

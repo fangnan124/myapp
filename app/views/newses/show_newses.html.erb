@@ -1,31 +1,53 @@
-<!--CONTACT SECTION -->
-<div id="contact-section">
-  <div class="container">
-    <div class="row main-top-margin text-center">
-      <div class="col-md-8 col-md-offset-2 "><h1><%= t('menu.news') %></h1></div>
-    </div>
-    <!-- ./ Main Heading-->
-    <div class="row main-low-margin">
-      <div class="col-md-12  col-sm-12 ">
-        <!--<div class="col-md-6  ">-->
-          <% @newses.each do |news| %>
-              <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                  <img src="<%= asset_path '1.jpg' %>" alt="" class="img-responsive">
-                  <div class="caption">
-                    <h3 class=""><%= news.title %></h3>
-                    <p><%= news.content %></p>
-                    <div class="btn-toolbar text-center">
-                      <a href="#" role="button" class="btn btn-primary pull-right">Details</a>
+<article ng-app="newses" ng-controller="NewsesController">
+  <!--CONTACT SECTION -->
+  <div id="contact-section">
+    <div class="container">
+      <div class="row main-top-margin">
+        <div class="col-md-8 col-md-offset-1">
+          <h1 class="h2"><span class="glyphicon glyphicon-globe"></span> <%= t('menu.news') %></h1>
+        </div>
+      </div>
+      <!-- ./ Main Heading-->
+      <div class="row main-low-margin">
+        <div class="col-md-3">
+          <div class="row" style="padding-top: 65px">
+            <button type="button" class="btn btn-link pull-right">業界ニュース</button>
+          </div>
+          <div class="row">
+            <button type="button" class="btn btn-link pull-right">社内ニュース</button>
+          </div>
+          <div class="row">
+            <button type="button" class="btn btn-link pull-right">その他ニュース</button>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <%= render partial: "pager", locals: {page: @page} %>
+          <div ng-repeat="news in newses">
+            <div class="col-md-12">
+              <div class="thumbnail">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img src="<%= asset_path 'welcome.jpg' %>" class="img-responsive">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="caption">
+                      <h3 class="h3">{{ news.title }}</h3>
+                      <p>{{ news.content }}</p>
+                      <div class="btn-toolbar text-center">
+                        <a href="#" role="button" class="btn btn-default pull-right">Details</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-          <% end %>
-        <!--</div>-->
+            </div>
+          </div>
+          <%= render partial: "pager", locals: {page: @page} %>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!--END CONTACT SECTION -->
+  <!--END CONTACT SECTION -->
+</article>
+
 
