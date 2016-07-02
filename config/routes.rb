@@ -16,6 +16,7 @@ Myapp::Application.routes.draw do
     get '/login/logout',               to: 'login#logout'
     get '/newses/show_newses.json',    to: 'newses#show_newses'
 
+    resources :attendences
     resources :recruits
     resources :businesses
     resources :projects

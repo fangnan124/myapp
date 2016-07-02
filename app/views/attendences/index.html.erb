@@ -1,0 +1,73 @@
+<div class="container">
+  <h1>Listing newses</h1>
+
+  <table class="table table-bordered">
+    <thead>
+    <tr>
+      <th width="10%">日付</th>
+      <th width="5%">曜日</th>
+      <th width="20%">出勤</th>
+      <th width="20%">退勤</th>
+      <th width="10%">休憩</th>
+      <th width="10%">作業時間</th>
+      <th width="15%">備考欄</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+      <td>2016/01/01</td>
+      <td>月</td>
+      <td>
+        <div class="row">
+          <div class="col-md-6">
+            <select class="form-control">
+              <option value="one">09</option>
+              <option value="two">10</option>
+              <option value="three">11</option>
+              <option value="four">12</option>
+              <option value="five">13</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <select class="form-control">
+              <option value="one">00</option>
+              <option value="two">15</option>
+              <option value="three">30</option>
+              <option value="four">45</option>
+            </select>
+          </div>
+        </div>
+      </td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2016/01/02</td>
+      <td>火</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2016/01/03</td>
+      <td>水</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <br>
+
+  <div style="padding: 0 15px 15px 15px">
+    <%= link_to 'New News', new_news_path, class: "btn btn-default" %>
+  </div>
+</div>

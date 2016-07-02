@@ -57,9 +57,26 @@
               </ul>
             </li>
         <% end %>
-        <li><div class="btn btn-default btn-xs navbar-btn">
-          <%= link_to_if current_user.nil?, t('menu.login'), new_user_session_path do |name|
-          link_to t('menu.mypage'), {controller: :login, action: :my_page} end %></div></li>
+        <% if current_user.nil? %>
+            <li><%= link_to t('menu.login'), new_user_session_path %></li>
+        <% else %>
+            <li class="dropdown">
+              <a class="dropdown-toggle my-navbar-btn"
+                 data-toggle="dropdown"
+                 role="button"
+                 aria-haspopup="true"
+                 aria-expanded="false">
+                <%= current_user.email %>
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to '勤怠管理', attendences_path %></li>
+                <li role="separator" class="divider"></li>
+                <li><%= link_to t("button.logout"), {controller: :login, action: :logout} %></li>
+              </ul>
+            </li>
+        <% end %>
+        </li>
       </ul>
     </div>
 
